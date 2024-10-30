@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="src/img/coffee-break.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cofee</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h1 class="logo-text">☕ Cofee</h1>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contato</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <dev class="section-content">
+          <div class="hero-details">
+            <h2 class="title">O Melhor Café</h2>
+            <h3 class="subtitle">
+              Faça seu dia melhor com nosso café especial
+            </h3>
+            <p class="description">
+              Bem-vindo ao nosso paraíso, onde cada grão conta uma história e
+              cada xícara desperta alegria
+            </p>
+            <div class="buttons">
+              <a href="#" class="button order-now">Peça Agora</a>
+              <a href="#" class="button contact-us">Entrar em contato</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="src/img/coffee-hero-section.png"
+              alt="hero"
+              class="hero-image"
+            />
+          </div>
+        </dev>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img
+              src="src/img/about-image.jpg"
+              alt="Sobre"
+              class="about-image"
+            />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Sobre Nós</h2>
+            <p class="text">
+              Na cafeteria em berdorf, Alemanha, temos orgulho de ser um destino
+              obrigatório para os amantes de café e para quem busca uma
+              conversa. Estamos dedicados a fornecer uma experiência de café
+              excepcional em uma atmosfera aconchegante e convidativa, onde os
+              hóspedes podem relaxar, descontrair e aproveitar seu tempo com
+              conforto.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Nosso Cardápio</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="src/img/hot-beverages.png"
+                alt="Hot beverages"
+                class="menu-image"
+              />
+              <h3 class="name">Bebidas Quentes</h3>
+              <p class="text">
+                Ampla variedade de café fumegante para deixá-lo fresco e leve
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="src/img/cold-beverages.png"
+                alt="Cold beverages"
+                class="menu-image"
+              />
+              <h3 class="name">Bebidas Geladas</h3>
+              <p class="text">
+                Café gelado cremoso e espumoso para refrescar você
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="src/img/refreshment.png"
+                alt="Refreshment"
+                class="menu-image"
+              />
+              <h3 class="name">Refresco</h3>
+              <p class="text">
+                Fruta e bebida gelada refrescante para se sentir revigorado
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="src/img/special-combo.png"
+                alt="Special Combo"
+                class="menu-image"
+              />
+              <h3 class="name">Combos Especiais</h3>
+              <p class="text">Suas combinações favoritas de comida e bebida</p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="src/img/desserts.png"
+                alt="desserts"
+                class="menu-image"
+              />
+              <h3 class="name">Sobremesas</h3>
+              <p class="text">
+                Sacie seu paladar e leve-o a uma experiência culinária
+              </p>
+            </li>
+            <li class="menu-item">
+              <img
+                src="src/img/burger-frenchfries.png"
+                alt="Burger Frenchfries"
+                class="menu-image"
+              />
+              <h3 class="name">Hambúrguer & Batata Frita</h3>
+              <p class="text">Lanches rápidos para satisfazer sua fome</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Avaliações</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="src/img/user-1.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback">
+                    Adorei o assado francês. Perfeitamente equilibrado e rico.
+                    Pedirei novamente
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="src/img/user-2.jpg" alt="User" class="user-image" />
+                  <h3 class="name">James Wilson</h3>
+                  <i class="feedback">
+                    Ótima mistura de expresso! Sabor suave e ousado. Envio
+                    rápido também
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="src/img/user-3.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Michael Brown</h3>
+                  <i class="feedback">
+                    Sabor mocha fantástico. Fresco e aromático. Envio rápido
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="src/img/user-4.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Emily Harris</h3>
+                  <i class="feedback">
+                    Qualidade excelente!grãos frescos e entrega rápida.
+                    Recomendo muito
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="src/img/user-5.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Antony Thompson</h3>
+                  <i class="feedback">
+                    Melhor descafeinado que já experimentei! Suave e saboroso.
+                    Chegou prontamente
+                  </i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Galeria</h2>
+        <div class="section-container">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-1.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-2.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-3.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-4.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-5.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="src/img/gallery-6.jpg"
+                alt="Gallery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Entre em contato conosco</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123, Algum lugar, Cidade</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>Email@email.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(00)000-0000</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Segunda - Sexta: 9:00 - 17:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sabado: 10:00 - 15:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Domingo: Fechado</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Seu nome" class="form-input" required>
+            <input type="email" placeholder="Seu email" class="form-input" required>
+            <textarea placeholder="Sua mensagem" class="form-input" required></textarea>
+            <button class="submit-button">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyrigth-text">&#169 2024 Coffee Shop</p>
+          <div class="social-link-list">
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Politica de privacidade</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Política de reembolso</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
