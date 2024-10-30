@@ -599,6 +599,10 @@ header .navbar {
     width: 100%;
   }
 
+  .gallery-section {
+    padding: 15px;
+  }
+
   .testimonials-section .slider-wrapper {
     margin: 0 0 30px;
   }
